@@ -10,12 +10,37 @@ namespace TU_Challenge
     {
         public static bool IsNullEmptyOrWhiteSpace(string? input)
         {
-            throw new NotImplementedException();
+            if (input == null)
+                return true;
+
+            if (input.Length == 0)
+                return true;
+
+            int i = 0;
+            while (input[i] == ' ' && i < input.Length - 1)
+                i++;
+
+            return input.Length == i + 1;
         }
 
         public static string MixString(string s, string s1)
         {
-            throw new NotImplementedException();
+            if (IsNullEmptyOrWhiteSpace(s) || IsNullEmptyOrWhiteSpace(s1)) throw new ArgumentException();
+
+            string result = "";
+            for (int i = 0; i < s.Length + s1.Length; i++)
+            {
+                if (i + s.Length > s.Length + s1.Length)
+                    result += s[i];
+                
+                else if (i > s.Length)
+                    result += s1[i];
+
+                else
+                    result += s1[i] + s[i];
+            }
+
+            return result;
         }
 
         public static string ToLowerCase(string s)
