@@ -12,9 +12,11 @@ public struct VECTOR3
 
     public static VECTOR3 operator +(VECTOR3 left, VECTOR3 right)
     {
-        left.X = left.X + right.X;
-        left.Y = left.Y + right.Y;
-        left.Z = left.Z + right.Z;
+        VECTOR3 res = new VECTOR3();
+        res.X = left.X + right.X;
+        res.Y = left.Y + right.Y;
+        res.Z = left.Z + right.Z;
+        return res;
 
     }
 }
