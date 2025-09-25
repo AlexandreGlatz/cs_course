@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT3 POO J3 Animalerie", "GT3 POO J3 Animalerie\GT3 POO J3 Animalerie.csproj", "{F099EFCA-2CFC-4EFC-8C98-C5F509E5CF54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{214F25D1-DC1C-4C09-8985-F1BEFFD747F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F099EFCA-2CFC-4EFC-8C98-C5F509E5CF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F099EFCA-2CFC-4EFC-8C98-C5F509E5CF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F099EFCA-2CFC-4EFC-8C98-C5F509E5CF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F099EFCA-2CFC-4EFC-8C98-C5F509E5CF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214F25D1-DC1C-4C09-8985-F1BEFFD747F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214F25D1-DC1C-4C09-8985-F1BEFFD747F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214F25D1-DC1C-4C09-8985-F1BEFFD747F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214F25D1-DC1C-4C09-8985-F1BEFFD747F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
