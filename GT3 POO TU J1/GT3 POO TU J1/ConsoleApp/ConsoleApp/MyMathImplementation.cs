@@ -8,10 +8,7 @@ namespace TU_Challenge
 {
     public class MyMathImplementation
     {
-        public static int Add(int i, int i1)
-        {
-            return i + i1;
-        }
+        public static int Add(int i, int i1) => i + i1;
 
         public static bool IsMajeur(int age)
         {
